@@ -1,0 +1,17 @@
+account_id: '196241772369'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-sbox01/98008dfc/task01
+expiration: 2025-03-07 11:29:20.177073+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: arn:aws:iam::196241772369:policy/eo_role_boundary
+project_path: C:\Users\suraj_ghosh\Desktop\aws-lambda-practice
+region: eu-central-1
+resources_prefix: cmtr-98008dfc-
+tags:
+  run_id: JAP-08
+  run_type: stm
+  type: user
+  user_id: 98008dfc
+temp_aws_access_key_id: ASIAS3MHLZ5IXUXZYFAP
+temp_aws_secret_access_key: YJXTF7CKZ0YsZURIzrZL6moKpmwDgfBCWhfFw1Fn
+temp_aws_session_token: IQoJb3JpZ2luX2VjEPv//////////wEaCXVzLWVhc3QtMSJHMEUCIHE8o9wwLf2sD9OIuAHbBVPSXqi/8sPrgdhhc0T/m4wVAiEAg6XEvNlhy/CN+W9nWXHs04TplzE63is9A48HadZLpWQq1AIIRBABGgwxOTYyNDE3NzIzNjkiDCu6g1klHD30fXaliyqxAonTk5AfrtJENpfe2LTpewoVt0Qr8ZifEt/bwXfxNOBPNDi4B409OrjkGN3Gazk6z6LCVod/h22jkc79oMJd4m+JQkPnxI+Kz10RfsWRZtL3E0lHCoKELTwy+aeh010rJS8r1W52jEluPrLde0VAZgksMT0VzkbgIB9IRl/BAOyS6DZdXbxNQnQfe+uC735ze6sjX+zxZTMYAfKc1mlSouLTWMu08/yg8Lx3Q20J76baggh2Rwb4BOkTjtSUBlM7Ua8xZLPXc+I+e2aGt9cbKmc+OjxBQdaBrpA/1KyA+GDukmQtG7IN5kIKY3T+WKBrvnn5yHpELXt/6tQzAdYKGriRaRbzzPSiqPIeoWatRa5n5qbK4Ap8ayXlEzANHnJtwcLXFCjF9H25Kv1jDnLPgdLOMLeWq74GOp0BY23ZWVUYLxjFoqQoy7QKjJZxxlpz0uuhrUGVLEVMNObfUQMtZUDU62aSmD4c6r862en/mWNb4t4Ha2mHpmev/UzxtVz7ZyLzeR9GcmDP3K8BgFc1aDR8NsZ5yJR98ULPeCMUoTxlJTP0Y4B9Udap+KrHJceP4VI2Zt7drap9QhPh1O3OVeGpomWsMgbYdVjZgcVYlFDKEZsxNvKxiA==
+use_temp_creds: false
