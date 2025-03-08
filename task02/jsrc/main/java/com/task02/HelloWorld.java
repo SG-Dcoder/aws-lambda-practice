@@ -1,12 +1,10 @@
 package com.task02;
 
-package com.task02;
-
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.syndicate.deployment.annotations.lambda.LambdaHandler;
-import com.syndicate.deployment.model.RetentionSetting;
 import com.syndicate.deployment.annotations.lambda.LambdaUrlConfig;
+import com.syndicate.deployment.model.RetentionSetting;
 import com.syndicate.deployment.model.lambda.url.AuthType;
 
 import java.util.HashMap;
@@ -24,7 +22,7 @@ public class HelloWorld implements RequestHandler<Map<String, Object>, Map<Strin
 
 	@Override
 	public Map<String, Object> handleRequest(Map<String, Object> event, Context context) {
-		System.out.println("Hello from lambda");
+		System.out.println("Hello from Lambda");
 
 		String path = (String) event.getOrDefault("rawPath", event.get("path"));
 		Map<String, Object> requestContext = (Map<String, Object>) event.get("requestContext");
