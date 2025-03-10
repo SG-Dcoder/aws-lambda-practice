@@ -21,7 +21,7 @@ public class HelloWorld implements RequestHandler<Map<String, Object>, Map<Strin
 	public Map<String, Object> handleRequest(Map<String, Object> request, Context context) {
 		context.getLogger().log("Processing request...");
 
-		// Constructing API Gateway response
+		// API Gateway formatted response
 		Map<String, Object> response = new HashMap<>();
 		response.put("statusCode", 200);
 		response.put("headers", Map.of("Content-Type", "application/json"));
